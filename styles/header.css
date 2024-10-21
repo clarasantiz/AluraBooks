@@ -35,3 +35,7 @@
     padding: 1em;
     background-color: var(--branco);
 }
+.lista-menu_link{
+    background: var(--azul-degrade);
+    
+}
