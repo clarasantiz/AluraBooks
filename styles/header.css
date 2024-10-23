@@ -26,8 +26,8 @@
     top: 100%;
     width: 60vw;
 }
-.container__botao {
-    display: none;
+.container__botao:checked ~ .lista-menu{
+    display: block;
 }
 .lista-menu__titulo{
     color: var(--laranja);
@@ -44,4 +44,7 @@
     background-clip: text;
     text-transform: uppercase;
 
+}
+.container__botao{
+    display: none;
 }
